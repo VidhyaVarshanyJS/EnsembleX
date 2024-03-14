@@ -12,7 +12,7 @@
 <h2>Project Overview</h2>
 
 <div style="display: flex; justify-content: center;">
-  <img src="https://github.com/VidhyaVarshanyJS/EnsembleX/assets/76642252/659c2ee0-a455-4ccc-ae4c-cb250f944927" alt="project-screenshot" style="max-width: 100%; max-height: 100vh;" />
+  <img src="https://github.com/VidhyaVarshanyJS/EnsembleX/assets/76642252/659c2ee0-a455-4ccc-ae4c-cb250f944927" alt="project-screenshot" style="width: 50%; height: auto;" />
 </div>
 
   
