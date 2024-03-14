@@ -2,9 +2,11 @@
 <p align="center"><img src="https://github.com/VidhyaVarshanyJS/EnsembleX/assets/76642252/0bfd71f6-9a90-4d4a-a9aa-fa99f7aaea48" alt="project-image" width ="200" height=200"/></p>
 <h1 align="center" id="title">EnsembleX</h1>
 <p align="center">
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/yourusername/yourproject/blob/master/LICENSE)
-[![GitHub release](https://img.shields.io/badge/release-v1.0-blue.svg)](https://github.com/yourusername/yourproject/releases/tag/v1.0)
-[![GitHub issues](https://img.shields.io/github/issues/yourusername/yourproject.svg)](https://github.com/yourusername/yourproject/issues)</p>
+  <a href="https://github.com/yourusername/yourproject/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="GitHub license"></a>
+  <a href="https://github.com/yourusername/yourproject/releases/tag/v1.0"><img src="https://img.shields.io/badge/release-v1.0-blue.svg" alt="GitHub release"></a>
+  <a href="https://github.com/yourusername/yourproject/issues"><img src="https://img.shields.io/github/issues/yourusername/yourproject.svg" alt="GitHub issues"></a>
+</p>
+
 
 
 <p id="about">A dynamic Language Model (LLM) ensemble selection application that leverages the Knapsack algorithm to optimize model selection across various domains. By integrating real-time web interaction with the Streamlit framework, users can receive cost optimization suggestions tailored to each selected model based on their dataset inputs.</p>
@@ -37,15 +39,14 @@ EnsembleX collects diverse domain LLM performance datasets from the open-ll-lead
 - Knapsack algorithm for quality-cost optimization
 - Real-time cost optimization suggestions
 - Data-driven model selection process
-- Domain-specific performance analysis
 
 
-
-## Technologies Used
+<h2>💻 Built with</h2>
 - Python
 - Streamlit
 - Pandas
 - NumPy
+- Hugging Face API
 - Plotly
 - Gradio
 - YData Profiling
@@ -61,13 +62,11 @@ EnsembleX collects diverse domain LLM performance datasets from the open-ll-lead
 ---
 
 
-### License Information
+<h3>🛡️ License </h3>
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/yourusername/yourproject/blob/master/LICENSE) file for details.
 
-### Contact
-For inquiries or feedback, please reach out to us at vidhyavarshany@gmail.com.
 
-### References
+<h3> Reference </h3>
 - [Hugging Face Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
 - [FelixZ Open LLM Leaderboard](https://huggingface.co/spaces/felixz/open_llm_leaderboard)
 - [Which LLM is Better? Open LLM Leaderboard](https://deepnatural.ai/blog/which-llm-is-better-open-llm-leaderboard-en)
