@@ -3,55 +3,68 @@
 <h1 align="center" id="title">EnsembleX</h1>
 
 
-<p id="description">Optimize Large Language Model (LLM) ensembles for quality-cost trade-offs offering tailored suggestions across various domains</p>
+<p id="about">A dynamic Language Model (LLM) ensemble selection application that leverages the Knapsack algorithm to optimize model selection across various domains. By integrating real-time web interaction with the Streamlit framework, users can receive cost optimization suggestions tailored to each selected model based on their dataset inputs.</p>
+
+
+<h2>📝 Project Description</h2>
+<p id="description">
+EnsembleX collects diverse domain LLM performance datasets from the open-ll-leaderboard API provided by Hugging Face. It then processes and manipulates the data, applies the Knapsack algorithm for model selection optimization, and visualizes the results using Streamlit. The core objective of EnsembleX is to empower users with a data-driven approach to selecting LLM ensembles that balance performance quality and cost efficiency.</p>
 
 <h2>🚀 Demo</h2>
 
 [https://github.com/exm.mkv](https://github.com/exm.mkv)
 
-<h2>Project Overview</h2>
+<h2>⬆️ Project Workflow</h2>
 
 <div style="display: flex; justify-content: center;">
   <img src="https://github.com/VidhyaVarshanyJS/EnsembleX/raw/main/assets/76642252/659c2ee0-a455-4ccc-ae4c-cb250f944927" alt="project-screenshot" style="max-width: 100%; height: auto;" />
 </div>
 
+1. Data Collection: Diverse domain LLM performance datasets are collected from the open-ll-leaderboard API.
+2. Data Manipulation: The collected data is processed and manipulated to prepare it for model selection optimization.
+3. Knapsack Algorithm: The Knapsack algorithm is applied to optimize model selection within a constrained framework.
+4. Real-time Web Application: Integration of a real-time web application using the Streamlit framework enables user interaction and visualization of the optimized model selection results.
+5. Cost Optimization Suggestions: Individualized cost optimization suggestions for each selected model are provided based on user-provided dataset inputs.
 
-
-  
   
 <h2>🧐 Features</h2>
 
-Here're some of the project's best features:
+- Dynamic LLM ensemble selection
+- Knapsack algorithm for quality-cost optimization
+- Real-time cost optimization suggestions
+- Data-driven model selection process
+- Domain-specific performance analysis
 
-*   Data collection from open-ll-leaderboard API
-*   Data manipulation and analysis
-*   Implementation of the Knapsack algorithm for optimized model selection
-*   Tailored cost optimization suggestions for selected models
-*   Visualization of model performance and optimizations
+---
+
+## Technologies Used
+- Python
+- Streamlit
+- Pandas
+- NumPy
+- Plotly
+- Gradio
+- YData Profiling
+--- 
 
 <h2>🛠️ Installation Steps:</h2>
 
-<p>1. Requirements</p>
+1. Clone the repository: `git clone https://github.com/yourusername/yourproject.git`
+2. Install requirements: `pip install -r requirements.txt`
+3. Run the app: `streamlit run app.py`
 
-```
-pip3 install -r requirements.txt
-```
 
-<p>2. Run code</p>
+---
 
-```
-streamlit run app.py
-```
 
-  
-  
-<h2>💻 Built with</h2>
+## License Information
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/yourusername/yourproject/blob/master/LICENSE) file for details.
 
-Technologies used in the project:
+### Contact
+For inquiries or feedback, please reach out to us at vidhyavarshany@gmail.com.
 
-*   Python
-*   Streamlit
-
-<h2>🛡️ License:</h2>
-
-This project is licensed under the Apache2.0
+### References
+- [Hugging Face Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
+- [FelixZ Open LLM Leaderboard](https://huggingface.co/spaces/felixz/open_llm_leaderboard)
+- [Which LLM is Better? Open LLM Leaderboard](https://deepnatural.ai/blog/which-llm-is-better-open-llm-leaderboard-en)
+- [Managing LLM context is the knapsack problem](https://www.awelm.com/posts/knapsack/)
