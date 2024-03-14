@@ -42,6 +42,7 @@ EnsembleX collects diverse domain LLM performance datasets from the open-ll-lead
 
 
 <h2>💻 Built with</h2>
+
 - Python
 - Streamlit
 - Pandas
@@ -63,10 +64,12 @@ EnsembleX collects diverse domain LLM performance datasets from the open-ll-lead
 
 
 <h3>🛡️ License </h3>
+
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/yourusername/yourproject/blob/master/LICENSE) file for details.
 
 
 <h3> Reference </h3>
+
 - [Hugging Face Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
 - [FelixZ Open LLM Leaderboard](https://huggingface.co/spaces/felixz/open_llm_leaderboard)
 - [Which LLM is Better? Open LLM Leaderboard](https://deepnatural.ai/blog/which-llm-is-better-open-llm-leaderboard-en)
