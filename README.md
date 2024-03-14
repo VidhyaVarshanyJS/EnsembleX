@@ -1,6 +1,6 @@
 <h1 align="center" id="title">EnsembleX</h1>
 
-<p align="center"><img src="https://github.com/VidhyaVarshanyJS/EnsembleX/assets/76642252/0bfd71f6-9a90-4d4a-a9aa-fa99f7aaea48" alt="project-image"></p>
+<p align="center"><img src="https://github.com/VidhyaVarshanyJS/EnsembleX/assets/76642252/0bfd71f6-9a90-4d4a-a9aa-fa99f7aaea48" alt="project-image" width ="200" height=200"/></p>
 
 <p id="description">Optimize Large Language Model (LLM) ensembles for quality-cost trade-offs offering tailored suggestions across various domains</p>
 
@@ -8,9 +8,9 @@
 
 [https://github.com/exm.mkv](https://github.com/exm.mkv)
 
-<h2>Project Screenshots:</h2>
+<h2>Project Screenshots</h2>
 
-<img src="https://github.com/VidhyaVarshanyJS/EnsembleX/assets/76642252/659c2ee0-a455-4ccc-ae4c-cb250f944927" alt="project-screenshot" width="876" height="400/">
+<img src="https://github.com/VidhyaVarshanyJS/EnsembleX/assets/76642252/659c2ee0-a455-4ccc-ae4c-cb250f944927" alt="project-screenshot"  align="center" />
 
   
   
