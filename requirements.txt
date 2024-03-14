@@ -48,7 +48,7 @@ numba==0.58.1
 numpy==1.25.2
 packaging==23.2
 pandas==2.2.1
-pandas-profiling==3.2.0
+pandas-profiling==0.7.4
 patsy==0.5.6
 phik==0.12.4
 pillow==10.2.0
@@ -93,4 +93,4 @@ websockets==11.0.3
 wordcloud==1.9.3
 xxhash==3.4.1
 yarl==1.9.4
-ydata-profiling==4.6.5
+ydata-profiling==0.7.5
