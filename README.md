@@ -22,6 +22,7 @@ EnsembleX collects diverse domain LLM performance datasets from the open-ll-lead
 
 <h2>⬆️ Project Workflow</h2>
 <img width="876" alt="architechture" src="https://github.com/VidhyaVarshanyJS/EnsembleX/assets/76642252/dc9f9577-ee4e-445a-b06b-f5710b237c82">
+
 ![image](https://github.com/VidhyaVarshanyJS/EnsembleX/assets/76642252/64a8917c-1474-4345-861b-5c0386319ab1)
 
 
