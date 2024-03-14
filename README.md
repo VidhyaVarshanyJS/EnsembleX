@@ -21,13 +21,11 @@ EnsembleX collects diverse domain LLM performance datasets from the open-ll-lead
 [https://github.com/exm.mkv](https://github.com/exm.mkv)
 
 <h2>⬆️ Project Workflow</h2>
-<img alt="architechture" src="https://github.com/VidhyaVarshanyJS/EnsembleX/assets/76642252/dc9f9577-ee4e-445a-b06b-f5710b237c82">
+<img alt="architechture" src="https://github.com/VidhyaVarshanyJS/EnsembleX/assets/76642252/dc9f9577-ee4e-445a-b06b-f5710b237c82 style="max-width: 50%; height: 50%;">
 
 
 
-<div style="display: flex; justify-content: center;">
-  <img src="https://github.com/VidhyaVarshanyJS/EnsembleX/raw/main/assets/76642252/659c2ee0-a455-4ccc-ae4c-cb250f944927" alt="project-screenshot" style="max-width: 100%; height: auto;" />
-</div>
+
 
 1. Data Collection: Diverse domain LLM performance datasets are collected from the open-ll-leaderboard API.
 2. Data Manipulation: The collected data is processed and manipulated to prepare it for model selection optimization.
