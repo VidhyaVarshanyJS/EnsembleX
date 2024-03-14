@@ -1,12 +1,11 @@
-datasets==2.18.0
-numpy==1.25.2
-pandas==1.5.0
-streamlit==1.32.0
-streamlit-pandas-profiling==0.1.3
-gradio_client==0.12.0
+datasets
+numpy
+pandas
+streamlit
+streamlit-pandas-profiling
+gradio_client
 ydata-profiling
-phik==0.12.4
-matplotlib==3.8.3
-plotly==5.19.0
-joblib==1.1.1
+matplotlib
+plotly
+joblib
 
