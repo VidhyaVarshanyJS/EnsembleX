@@ -11,7 +11,7 @@
 
 <h2>Project Overview</h2>
 
-<img src="https://github.com/VidhyaVarshanyJS/EnsembleX/assets/76642252/659c2ee0-a455-4ccc-ae4c-cb250f944927" alt="project-screenshot"   width ="700" height="500" align="center" />
+<center><img src="https://github.com/VidhyaVarshanyJS/EnsembleX/assets/76642252/659c2ee0-a455-4ccc-ae4c-cb250f944927" alt="project-screenshot"   width ="500" height="500"  /></center>
   
   
 <h2>🧐 Features</h2>
