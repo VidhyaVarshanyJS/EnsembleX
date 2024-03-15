@@ -2,9 +2,9 @@
 <p align="center"><img src="https://github.com/VidhyaVarshanyJS/EnsembleX/assets/76642252/0bfd71f6-9a90-4d4a-a9aa-fa99f7aaea48" alt="project-image" width ="200" height=200"/></p>
 <h1 align="center" id="title">EnsembleX</h1>
 <p align="center">
-  <a href="https://github.com/yourusername/yourproject/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="GitHub license"></a>
+  <a href="https://github.com/vidhyavarshanyjs/ensembleX/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="GitHub license"></a>
   <a href="https://github.com/yourusername/yourproject/releases/tag/v1.0"><img src="https://img.shields.io/badge/release-v1.0-blue.svg" alt="GitHub release"></a>
-  <a href="https://github.com/yourusername/yourproject/issues"><img src="https://img.shields.io/github/issues/yourusername/yourproject.svg" alt="GitHub issues"></a>
+  <a href="https://github.com/vidhyavarshanyjs/ensemblex/issues"><img src="https://img.shields.io/github/issues/yourusername/yourproject.svg" alt="GitHub issues"></a>
 </p>
 
 
