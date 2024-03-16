@@ -1,2 +1,5 @@
 venv/
 cachedir/
+assets/
+.streamlit/
+.txt
