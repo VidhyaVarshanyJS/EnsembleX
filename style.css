@@ -1,130 +1,131 @@
-/* style.css */
-/* body {
-  font-family: "Arial", sans-serif;
-} */
+/* style.css - Innovative table styling */
 
+/* Reset styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
     font-family: 'Montserrat', sans-serif;
 }
 
-/* Adjust your colors, shadows, and radius according to your preference */
-
-/* Apply custom colors, fonts, etc. */
-.css-1d391kg {
-  padding-top: 0;
-}
-
-a {
-  color: #f63366;
-  text-decoration: none;
-}
-
-/* Style the sidebar */
-.streamlit-expander {
-  border: 1px solid #e6e9ef;
-  border-radius: 0.25rem;
-}
-
-.streamlit-expanderHeader {
-  font-size: 16px;
-  color: var(--primary-color);
-}
-
-/* Style tables */
+/* Styling for the Streamlit table */
 table {
-  border-collapse: collapse;
-  width: 100%;
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9em;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
 }
 
 th, td {
-  border: 1px solid #ddd;
-  padding: 8px;
+    padding: 12px 15px;
 }
 
+tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+/* Hover effect for table rows */
+tbody tr:hover {
+    background-color: #f1f1f1;
+    cursor: default;
+}
+/* Table header */
 th {
-  background-color: #f63366;
-  color: white;
+    background-color: #f2f3f5;  /* Light grey color */
+    color: #333;  /* Slightly dark grey color */
+    font-weight: bold;
+    text-align: center;  /* Center align the header cells */
 }
 
-/* Style buttons */
-button {
-  background-color: #f63366;
-  color: #ffffff;
-  border: none;
-  padding: 8px 16px;
-  text-align: center;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition: background-color 0.3s;
+/* Table row animations on hover */
+tbody tr {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-button:hover {
-  background-color: #fc5a8d;
+tbody tr:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
-
-/* style.css */
-.tabs {
-    display: flex;
-    justify-content: start;
-    margin-bottom: 10px;
+/* Style for clickable links */
+a {
+    color: #1a0dab; /* A standard link color */
+    text-decoration: none; /* Removes underline from links */
+    transition: color 0.3s ease-in-out; /* Smooth transition for link color */
 }
 
-.stButton > button {
-    margin: 5px 10px 5px 0;
-    border: 1px solid #ddd;
-    padding: 8px 16px;
-    border-radius: 4px;
-    background-color: #fff;
-    color: #000;
-    outline: none;
-    cursor: pointer;
+a:hover {
+    color: #ff5722; /* Color when hovering over the link */
+    text-decoration: underline; /* Underline on hover for emphasis */
 }
 
-.stButton > button:hover {
-    background-color: #eee;
-}
-
-.stButton > button:active {
-    background-color: #ccc;
-}
-
-.active-tab {
-    border: 2px solid #4CAF50;
-    background-color: #4CAF50;
-    color: #fff;
-}
-
-
-/* style.css */
+/* Style for buttons with a modern look */
 .button-style {
-    display: inline-block;
-    padding: 10px 20px;
-    margin: 1em 0;
-    border-radius: 30px;
-    background: #e0e5ec; /* Light grey background */
-    color: #6f8cb9; /* Soft blue for text color, good for light themes */
+    color: #333; /* Dark text for good contrast */
+    background-color: #ffffff; /* Light background for the button */
+    border: 2px solid #007bff; /* Blue border */
+    padding: 10px 25px; /* Top/bottom padding and left/right padding */
     text-align: center;
     text-decoration: none;
-    border: none;
-    box-shadow: -5px -5px 10px #ffffff, /* Light source top-left */
-                 5px 5px 15px rgba(163, 177, 198, 0.6); /* Soft shadow */
-    transition: box-shadow 0.3s ease-in-out;
-    cursor: pointer;
-    font-size: 16px;
+    display: inline-block;
+    font-size: 16px; /* Base font size for buttons */
+    margin: 4px 2px;
+    cursor: pointer; /* Changes cursor to pointer to indicate clickable */
+    border-radius: 25px; /* Rounded corners for pill-like shape */
+    transition: all 0.3s ease-in-out; /* Smooth transition for all properties */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    position: relative;
+    overflow: hidden; /* Ensures nothing overflows from the button's boundaries */
+    z-index: 1; /* Stack the pseudo-elements below the button text */
+}
+
+.button-style::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) scaleY(1.5);
+    top: 100%;
+    width: 120%;
+    height: 100%;
+    background-color: #007bff; /* Button hover color */
+    border-radius: 25px;
+    z-index: -1;
+    transition: all 0.3s ease-in-out;
+}
+
+.button-style:hover::before {
+    top: -10%;
+    height: 130%;
 }
 
 .button-style:hover {
-    box-shadow: -2px -2px 5px #ffffff,
-                 2px 2px 5px rgba(163, 177, 198, 0.6);
+    color: #fff; /* White text color for contrast */
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.15); /* Deeper shadow on hover */
 }
-/* .button-style:active {
-    box-shadow: inset 1px 1px 2px rgba(163, 177, 198, 0.3),
-                inset -1px -1px 2px #ffffff;
-}
-
-.button-style:focus {
-    outline: none;
-} */
