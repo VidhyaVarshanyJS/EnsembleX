@@ -67,7 +67,7 @@ https://github.com/VidhyaVarshanyJS/EnsembleX/assets/76642252/ea601f86-184d-4e1a
 
 <h3>🛡️ License </h3>
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/yourusername/yourproject/blob/master/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/VidhyaVarshanyJS/EnsembleX/blob/master/LICENSE) file for details.
 
 
 <h3> Reference </h3>
