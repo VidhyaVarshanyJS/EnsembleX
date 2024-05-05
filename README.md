@@ -28,7 +28,7 @@ https://github.com/VidhyaVarshanyJS/EnsembleX/assets/76642252/ea601f86-184d-4e1a
   <img alt="architechture" src="https://github.com/VidhyaVarshanyJS/EnsembleX/assets/76642252/dc9f9577-ee4e-445a-b06b-f5710b237c82" style="width:50%; height:50%;">
 </p>
 
-1. Data Collection: Diverse domain LLM performance datasets are collected from the open-ll-leaderboard API.
+1. Data Collection: Diverse domain LLM performance datasets are collected from the open-llm-leaderboard API.
 2. Data Manipulation: The collected data is processed and manipulated to prepare it for model selection optimization.
 3. Knapsack Algorithm: The Knapsack algorithm is applied to optimize model selection within a constrained framework.
 4. Real-time Web Application: Integration of a real-time web application using the Streamlit framework enables user interaction and visualization of the optimized model selection results.
